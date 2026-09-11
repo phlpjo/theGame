@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wildmark – Basis &amp; Höhle</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="game-wrap">
+    <div id="game-canvas"></div>
+
+    <div id="hud">
+      <div id="hud-resources"></div>
+      <div id="hud-gold"></div>
+      <div id="hud-hint">WASD/Pfeiltasten: Bewegen · E: Interagieren</div>
+    </div>
+
+    <div id="log-panel">
+      <div id="log-title">Ereignisse</div>
+      <div id="log-list"></div>
+    </div>
+  </div>
+
+  <div id="modal-overlay" class="hidden">
+    <div id="modal-craft" class="modal hidden"></div>
+    <div id="modal-tavern" class="modal hidden"></div>
+    <div id="modal-cave" class="modal hidden"></div>
+  </div>
+
+  <div id="toast-root"></div>
+
+  <script src="js/vendor/kaboom.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
